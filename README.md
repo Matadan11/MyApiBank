@@ -32,8 +32,7 @@ En la carpeta de "SQL Script" esta la creacion de BD y los diferentes Stored Pro
 
 # Uso del Api
 ## EndPoints
-![image](https://github.com/Matadan11/MyApiBank/assets/102993860/9f5fbd23-c1cb-41af-9216-cfffa19cff09)
-
+![image](https://github.com/Matadan11/MyApiBank/assets/102993860/b0f9fce2-f63f-4429-a85b-abe10bb58a04)
 
 # Indicaciones para realizar pruebas:
 ## Agregar y consultar cuentas
@@ -84,6 +83,8 @@ La transferencia se comportará como un deposito nuevo para la cuenta destino y 
 
 Es requerido enviar la transferencia de la siguiente manera:
 
+Ejemplo:
+
 {
     "AccountId": 1,
     "Amount": 10,
@@ -93,7 +94,23 @@ Es requerido enviar la transferencia de la siguiente manera:
 
 ## Retiros
 
-Para 
+Para realizar un retiro se requiere únicamente de los siguientes párametros: 
+
+Ejemplo: 
+
+{
+  "accountId": 1,
+  "amount": 10,
+  "trantype": "withdrawl"
+}
+
+Para cualquier consulta contactar al correo:
+dani11.matarrita@hotmail.com 
+
+
+
+
+
 
 
 
